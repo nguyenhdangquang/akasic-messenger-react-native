@@ -1,0 +1,47 @@
+{
+  "name": "AkasicMessenger",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.3",
+    "@haskkor/react-native-pincode": "^1.6.3",
+    "expo": "^29.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-contacts": "^2.2.3",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-image-zoom-viewer": "^2.2.18",
+    "react-native-orientation-loading-overlay": "^0.1.4",
+    "react-native-pin-code": "^0.5.0",
+    "react-native-popup-dialog": "^0.15.0",
+    "react-native-popup-menu": "^0.14.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.12.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "5.0.2",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
